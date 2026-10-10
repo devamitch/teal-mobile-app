@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Lato-Regular.ttf",
+      "sha1": "e923c72eda5e50a87e18ff5c71e9ef4b3b6455a3"
+    },
+    {
+      "path": "src/assets/fonts/Merriweather-Bold.ttf",
+      "sha1": "2e0d48029923ed11060caaed1136ac128faca640"
+    },
+    {
+      "path": "src/assets/fonts/Merriweather-Regular.ttf",
+      "sha1": "88f0ca30082490dabc2ce54e357876d8ea4fb4ac"
+    },
+    {
+      "path": "src/assets/fonts/VujahdayScript-Regular.ttf",
+      "sha1": "22db6656aee9af748704452840ea375993eb0c11"
+    },
+    {
+      "path": "src/assets/fonts/YoungSerif-Regular.ttf",
+      "sha1": "42abd3af5eba4ecdc77ea1ff885ce4a4e941f1ae"
+    }
+  ]
+}

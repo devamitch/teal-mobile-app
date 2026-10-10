@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>CFBundleDisplayName</key>
+  <string>MyTeal</string>
+  <key>CFBundleExecutable</key>
+  <string>$(EXECUTABLE_NAME)</string>
+  <key>CFBundleIdentifier</key>
+  <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>$(PRODUCT_NAME)</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>$(MARKETING_VERSION)</string>
+  <key>CFBundleVersion</key>
+  <string>$(CURRENT_PROJECT_VERSION)</string>
+  <key>CFBundleSignature</key>
+  <string>????</string>
+
+  <!-- Indicates that the app does NOT use non-exempt encryption -->
+  <key>ITSAppUsesNonExemptEncryption</key>
+  <false/>
+
+  <!-- STRICT iPhone-only support - NO iPad -->
+  <key>LSRequiresIPhoneOS</key>
+  <true/>
+  <key>UIDeviceFamily</key>
+  <array>
+    <integer>1</integer> <!-- iPhone ONLY - no iPad (2) -->
+  </array>
+
+  <!-- Privacy - Photo Library Usage Description -->
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>This app needs access to your photo library to allow you to select and share photos.</string>
+
+  <!-- App Transport Security (secure networking) -->
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <false/>
+    <key>NSAllowsLocalNetworking</key>
+    <true/>
+  </dict>
+
+  <!-- WebView or Firebase web content (safe) -->
+  <key>FirebaseAppDelegateProxyEnabled</key>
+  <true/>
+  <key>NSAllowsArbitraryLoadsInWebContent</key>
+  <true/>
+
+  <!-- Optional document access -->
+  <key>UIFileSharingEnabled</key>
+  <true/>
+  <key>LSSupportsOpeningDocumentsInPlace</key>
+  <true/>
+
+  <!-- App Fonts -->
+  <key>UIAppFonts</key>
+  <array>
+    <string>AntDesign.ttf</string>
+    <string>Entypo.ttf</string>
+    <string>EvilIcons.ttf</string>
+    <string>Feather.ttf</string>
+    <string>FontAwesome.ttf</string>
+    <string>FontAwesome5_Brands.ttf</string>
+    <string>FontAwesome5_Regular.ttf</string>
+    <string>FontAwesome5_Solid.ttf</string>
+    <string>FontAwesome6_Brands.ttf</string>
+    <string>FontAwesome6_Regular.ttf</string>
+    <string>FontAwesome6_Solid.ttf</string>
+    <string>Foundation.ttf</string>
+    <string>Ionicons.ttf</string>
+    <string>MaterialIcons.ttf</string>
+    <string>MaterialCommunityIcons.ttf</string>
+    <string>SimpleLineIcons.ttf</string>
+    <string>Octicons.ttf</string>
+    <string>Zocial.ttf</string>
+    <string>Fontisto.ttf</string>
+    <string>Lato-Regular.ttf</string>
+    <string>Merriweather-Bold.ttf</string>
+    <string>Merriweather-Regular.ttf</string>
+    <string>VujahdayScript-Regular.ttf</string>
+    <string>YoungSerif-Regular.ttf</string>
+  </array>
+
+  <!-- App Launch & Orientation -->
+  <key>UILaunchStoryboardName</key>
+  <string>LaunchScreen</string>
+  <key>UIRequiredDeviceCapabilities</key>
+  <array>
+    <string>armv7</string>
+  </array>
+  <key>UISupportedInterfaceOrientations</key>
+  <array>
+    <string>UIInterfaceOrientationPortrait</string>
+    <string>UIInterfaceOrientationLandscapeLeft</string>
+    <string>UIInterfaceOrientationLandscapeRight</string>
+  </array>
+  <key>UIViewControllerBasedStatusBarAppearance</key>
+  <false/>
+</dict>
+</plist>

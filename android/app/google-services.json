@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "904995166325",
+    "project_id": "myteal-79f28",
+    "storage_bucket": "myteal-79f28.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904995166325:android:a16d95e8b63fe6339b003c",
+        "android_client_info": {
+          "package_name": "com.myteal.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904995166325-ql2ha4n77qf1pqto2ajrpvk7qe5nise2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myteal.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "904995166325-5957lvq85fsf9kq7a2ug96gfg49nidds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1KCW3FkPRyCDhHIIgpybqCmZuTgCItlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904995166325-5957lvq85fsf9kq7a2ug96gfg49nidds.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "904995166325-grnducufh7dlvqh6fe0aras0268khbr2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.devamitch.myteal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904995166325:android:b4291109bf93b6179b003c",
+        "android_client_info": {
+          "package_name": "com.devamitch.myteal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904995166325-5957lvq85fsf9kq7a2ug96gfg49nidds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1KCW3FkPRyCDhHIIgpybqCmZuTgCItlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904995166325-5957lvq85fsf9kq7a2ug96gfg49nidds.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "904995166325-grnducufh7dlvqh6fe0aras0268khbr2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.devamitch.myteal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
